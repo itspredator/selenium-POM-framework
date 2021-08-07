@@ -69,13 +69,14 @@ public class hompage_toolsqa {
 		hompage_toolsqa.setup();
 		hompage_toolsqa.verifytitle();
 		registartion reg=new registartion(driver);
-		reg.getfname_lname("pinkesh","choudhary");
-		reg.addressemail("boisar", "pinkeshchoudhary007@gmail.com");
-		reg.getphonezendhob("8788415411");
+		reg.getfname_lname("sameer","bhatia");
+		reg.addressemail("china", "abc@gmail.com");
+		reg.getphonezendhob("6526114589");
 		reg.hobbieslanguage();
 		reg.skillscountry();
 		reg.dob();
-		reg.verifypasswords("Pinkesh123", "Pinkesh123");
+		reg.uploadphoto();
+		reg.verifypasswords("Abcd123", "Abcd123");
 		hompage_toolsqa.closesetup();
 
 	}
